@@ -196,7 +196,7 @@ button:hover {
     margin-left: 250px;
 }
 
-.help-img-1 p{
+.help-img-1 p {
 
     color: rgba(39, 39, 39, 0.8);
     font-family: Lato;
@@ -205,4 +205,76 @@ button:hover {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+#deal-full {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal {
+
+    max-width: 1440px;
+    width: 75%;
+    margin: 90px auto;
+
+
+
+}
+
+.deal-banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.deal-text h1 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.deal-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.deal-banner .deal-text * {
+
+    margin-bottom: 32px;
+    max-width: 600px;
+   
+}
+
+button {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+    color: white;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+
+button:hover {
+
+    background-color: rgb(199, 28, 65);
+}
+
+.deal-img{
+
+    margin-right: 150px;
 }
