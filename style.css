@@ -278,3 +278,16 @@ button:hover {
 
     margin-right: 150px;
 }
+
+.insta-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* Adjust the number of columns as needed */
+    gap: 20px;
+    max-width: 1440px;
+    justify-content: center;  /* Center the items horizontally */
+    margin: auto;  /* Center the container */
+}
+
+.insta-image div {
+    text-align: center;  /* Center the content inside each grid item */
+}
