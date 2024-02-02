@@ -47,7 +47,7 @@ p {
     max-width: 525px;
 }
 
-button {
+.banner-text .btn {
     border-radius: 8px;
     background: rgb(229, 84, 115);
     border: none;
@@ -55,10 +55,11 @@ button {
     padding: 15px 28px;
     color: white;
     cursor: pointer;
+    margin-left: 0;
 
 }
 
-button:hover {
+.btn:hover {
 
     background-color: rgb(199, 28, 65);
 }
@@ -287,6 +288,7 @@ button:hover {
     justify-content: center;  /* Center the items horizontally */
     margin: auto;  /* Center the container */
 }
+
 
 .insta-image div {
     text-align: center;  /* Center the content inside each grid item */
